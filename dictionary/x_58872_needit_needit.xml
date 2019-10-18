@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="NeedIt " max_length="40" name="x_58872_needit_needit" type="collection">
+        <element label="Employee Name" mandatory="true" max_length="40" name="employee_name" type="string"/>
+        <element label="new field 1" max_length="10" name="new_field_1" type="integer"/>
+        <element label="Requested for" mandatory="true" max_length="32" name="u_reference_1" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Request type" max_length="40" name="u_requesttype" type="string">
+            <choice/>
+        </element>
+    </element>
+</database>
